@@ -22,7 +22,7 @@ moskovskaya;
 		...
 		(*
 		-> rrel_example:
-			"file://photo/radish.png"
+			"file://photo/carrot.png"
 			(*
 			<- lang_ru;;
 			=> nrel_format: format_png;;
@@ -59,6 +59,9 @@ moskovskaya=>nrel_main_idtf:
           [московская]
           (*<-lang_ru;;*);;
 
+vegetables_carrot<-concept_vegetable;;
+vegetables_carrot=>nrel_ripening_time:...(* -> rrel_number_of_month:4;;*);;
+afgan<-concept_country;;
 
 
 
